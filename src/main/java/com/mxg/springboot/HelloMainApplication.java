@@ -32,6 +32,8 @@ public class HelloMainApplication {
     public static void main(String[] args) {
         System.out.println("我是分支中建立的文件springStudy01");
         System.out.println("我是分支中建立的文件springStudy02");
+        System.out.println("我是分支中建立的文件springStudy03");
+
         SpringApplication.run(HelloMainApplication.class, args);
     }
 
