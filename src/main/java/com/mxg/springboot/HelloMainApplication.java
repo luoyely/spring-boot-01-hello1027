@@ -37,6 +37,12 @@ public class HelloMainApplication {
         System.out.println("我是分支中建立的文件springStudy05");
         System.out.println("1111111111111111111111111111");
         SpringApplication.run(HelloMainApplication.class, args);
+        String  str="    abc    " +
+                "" +
+                "";
+        System.out.println(str.length());
+        System.out.println(str.trim());
+        System.out.println(str.trim().length());
     }
 
 }
