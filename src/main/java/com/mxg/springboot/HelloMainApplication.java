@@ -44,5 +44,9 @@ public class HelloMainApplication {
         System.out.println(str.trim());
         System.out.println(str.trim().length());
     }
-
+    public String test(){
+        String s1="aaaaa";
+        System.out.println(s1);
+        return null;
+    }
 }
